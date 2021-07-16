@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "butler", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#back {
+  width: 100%;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 65%;
+  height: 150px;
+}
+nav img {
+  height: 100%;
+  padding: 0 100px;
+}
+
+nav .links a {
+  color: #232323;
+  font-size: 15px;
+  font-family: "inter";
+  font-weight: 300;
+}
+
+nav .links a:nth-child(2) {
+  margin-left: 40px;
+}
+nav .links a:hover {
+  color: #bf1826;
+  transition: 0.1s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  font-family: butler;
+  margin-top: 40px;
+  font-weight: 100;
+}
+#main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 120px;
+}
+
+#main .imgcntnr {
+  width: 210px;
+  height: 210px;
+  background-color: yellow;
+}
+#main #one,
+#main #sx {
+  width: 220px;
+  height: 400px;
+}
+
+#main #one {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(15%, -50%);
+  background: purple;
+}
+#main #sx {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-15%, -50%);
+  background: purple;
+}
+
+#main #holdr-one {
+  position: absolute;
+  top: 50%;
+  left: 300px;
+  transform: translate(-10%, -50%);
+}
+#main .holdr div {
+  margin-top: 20px;
+}
+#main #holdr-two {
+  position: absolute;
+  top: 50%;
+  right: 300px;
+  transform: translate(10%, -50%);
+}
+
+#videoplr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  min-height: 100vh;
+  overflow: hidden;
+}
+#videoplr video {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+#main .imgcntnr {
+  background-size: cover;
+}
+
+#main #one {
+  background-image: url(./images/one.jpg);
+}
+
+#main #two {
+  background-image: url(./images/two.jpg);
+}
+#main #three {
+  background-image: url(./images/three.jpg);
+}
+#main #fr {
+  background-image: url(./images/four.jpg);
+}
+#main #fv {
+  background-image: url(./images/five.jpg);
+}
+#main #sx {
+  background-image: url(./images/sx.jpg);
+}
